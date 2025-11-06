@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+
+# Editor specific files (common ones)
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Flask / Python specific files
+
+# Database files
+*.sqlite
+*.db
+
+# Uploaded files / static files (if you don't want to track them)
+# Consider keeping these if they are part of your application setup,
+# but often generated or uploaded content should be ignored.
+# static/uploads/
+
+# Dependency files
+Pipfile.lock # If using Pipenv, you may want to keep this, but often ignored
+requirements.txt # Generally, you want to keep this, but sometimes ignored if using Pipenv/Poetry
+
+# Logs and runtime files
+*.log
+tmp/
